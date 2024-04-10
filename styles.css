@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 50px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  /* background-color: hsl(47, 88%, 63%); */
+  font-family: "Rubik";
+  font-family: "Tilt neon";
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+  width: fit-content;
+  height: 250px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: margin-top 0.5s;
+  height: fit-content;
+  padding: 20px;
+}
+
+.container:hover {
+  margin-top: -20px;
+}
+
+input,
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  color: #757575; /* Darker grey for good contrast */
+  font-style: italic;
+  font-size: 16px;
+  transition: border-radius 0.1s;
+  border: none;
+  background-color: #fafafa;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* 
+input:hover {
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+
+input:active {
+  border-radius: 20px;
+  border: 1px solid #000;
+} */
+
+button {
+  cursor: pointer;
+  background-color: hsl(227, 48%, 88%);
+  background-color: #0d5dfc; /* Blue */
+  border: none;
+  color: white;
+  padding: 11px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #3375fa;
+}
+
+button:active {
+  background-color: #0d5dfc;
+}
+
+#result {
+  margin-top: 20px;
+  background-color: #dae6fd; /* Light teal background */
+  color: #2a4d92;
+  padding: 10px;
+  /* margin-top: 10px; */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1.2em;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #152749; /* Dark blue-grey color */
+  text-align: center;
+  /* font-family: "Arial", sans-serif; */
+  /* font-size: 3em; Adjust size as needed */
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-shadow: 2px 2px 4px #7f8c8d;
+}
+
+@media screen and (width < 382px) {
+  .container {
+    /* height: 300px; */
+  }
+}
+@media screen and (max-width: 319px) {
+  .container {
+    /* height: 350px; */
+  }
+}
+
+/* @media screen and (max-width: 437px) {
+  .container {
+    height: 280px;
+  }
+} */
