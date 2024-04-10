@@ -10,7 +10,9 @@ const palindrome = function (word) {
 
 function checkPalindrome() {
   const word = document.getElementById("word").value;
-  const result = palindrome(word) ? "is a palindrome." : "is not a palindrome.";
+  const result = palindrome(word)
+    ? "is a palindrome :)"
+    : "is not a palindrome :(";
   document.getElementById("result").textContent = `"${word}" ${result}`;
 }
 
